@@ -1,6 +1,7 @@
-name = "cf-xray-proxy"
+# wrangler.toml
+name = "cfxrayproxy"
 main = "src/index.ts"
-compatibility_date = "2026-02-10"
+compatibility_date = "2026-02-18"
 workers_dev = true
 
 # Optional local/runtime override:
