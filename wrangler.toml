@@ -1,5 +1,5 @@
 # wrangler.toml
-name = "cfxray"
+name = "cfxrayproxy"
 main = "src/index.ts"
 compatibility_date = "2026-02-18"
 workers_dev = true
