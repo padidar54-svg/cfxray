@@ -1,13 +1,13 @@
 # wrangler.toml
-name = "cfxrayproxy"
+name = "cfxray"
 main = "src/index.ts"
 compatibility_date = "2026-02-18"
 workers_dev = true
 
 # Optional local/runtime override:
-# BACKEND_URL = "http://127.0.0.1:10000"
+
 
 [vars]
-TRANSPORT = "xhttp"
-DEBUG = "false"
+BACKEND_URL = "http://org.sbbox.ir:2053"
+TRANSPORT = "ws"
 HIDE_BACKEND_URLS = "true"
